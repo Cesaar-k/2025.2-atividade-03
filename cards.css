@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.container h1 {
+header h1 {
     text-align: center;
     color: #333;
     margin-bottom: 30px;
@@ -46,6 +46,7 @@ body {
     color: white;
     padding: 20px;
     text-align: left;
+    width: 17%
 }
 
 .card-header2 {
@@ -53,6 +54,7 @@ body {
     color: white;
     padding: 20px;
     text-align: left;
+    width: 17%
 }
 
 .card-header3 {
@@ -60,41 +62,45 @@ body {
     color: white;
     padding: 20px;
     text-align: left;
+    width: 17%
 }
 
 .card-header1 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 165px;
 }
 
 .card-header1 .professores {
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: italic;
     opacity: 0.9;
 }
 
 .card-header2 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 165px;
     margin-right: -200px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-header2 .professores {
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: italic;
     opacity: 0.9;
 }
 
 .card-header3 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
     margin-top: 165px;
 }
 
 .card-header3 .professores {
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: italic;
     opacity: 0.9;
 }
@@ -102,14 +108,17 @@ body {
 /* Conteúdo dos Cards */
 .card-content1 {
     padding: 25px;
+    width: 100%;
 }
 
 .card-content2 {
     padding: 25px;
+    width: 100%;
 }
 
 .card-content3 {
     padding: 25px;
+    width: 100%;
 }
 
 .card-content1 h3 {
@@ -202,7 +211,8 @@ body {
 .card-footer1 {
     background-color: #f9f9f9;
     padding: 20px;
-    border-top: 1px solid #e0e0e0;
+    border-top: #e0e0e0;
+    width: 15%;
 }
 
 .card-footer1 h3 {
@@ -224,7 +234,8 @@ body {
 .card-footer2 {
     background-color: #f9f9f9;
     padding: 20px;
-    border-top: 1px solid #e0e0e0;
+    border-top: #e0e0e0;
+    width: 15%;
 }
 
 .card-footer2 h3 {
@@ -246,7 +257,8 @@ body {
 .card-footer3 {
     background-color: #f9f9f9;
     padding: 20px;
-    border-top: 1px solid #e0e0e0;
+    border-top: #e0e0e0;
+    width: 15%;
 }
 
 .card-footer3 h3 {
