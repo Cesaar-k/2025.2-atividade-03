@@ -147,7 +147,7 @@ td ul li {
 - [X] **Defina o título da página** coloque a identificação no arquivo `tabelas.html`. Lembre de atualizar também o `title`.
 - [X] **Copie o código CSS** fornecido acima para o arquivo `tabelas.css`
 - [X] **Abra o arquivo HTML** em seu navegador para visualizar a tabela
-- [ ] **Experimente modificar** as cores, tamanhos e estilos para personalizar sua tabela
+- [X] **Experimente modificar** as cores, tamanhos e estilos para personalizar sua tabela
 - [X] **Adicione as disciplinas**: matemática discreta, programação de computadores , e sistemas digitais
 
 ## Desafios Adicionais (Opcional)
